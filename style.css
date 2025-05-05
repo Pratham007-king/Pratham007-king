@@ -1,0 +1,39 @@
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #ffd4ec, #d4f1ff);
+  text-align: center;
+  padding: 40px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.gift-box {
+  position: relative;
+  margin: 30px auto;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+.gift-box .lid, .gift-box .box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #ff69b4;
+  background-color: #fff;
+}
+.gift-box .lid {
+  top: -20px;
+  transform: rotate(5deg);
+}
+.gift-box .box {
+  top: 0;
+}
+#surprise.hidden {
+  display: none;
+}
+#surprise img {
+  margin-top: 20px;
+  width: 200px;
+}

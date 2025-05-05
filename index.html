@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birthday Surprise Game</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Birthday!</h1>
+    <p>Click the gift to reveal your surprise!</p>
+    <div class="gift-box" onclick="revealSurprise()">
+      <div class="lid"></div>
+      <div class="box"></div>
+    </div>
+    <div id="surprise" class="hidden">
+      <h2>You got a Cake Party!</h2>
+      <img src="https://media.giphy.com/media/3ohs7KViFh1Qdv3Zs4/giphy.gif" alt="Cake Party"/>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
